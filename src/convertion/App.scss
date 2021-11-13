@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+html {
+  font-family: 'Cairo', sans-serif;
+  box-sizing: border-box; 
+  font-size: 62.5%; 
+  background-color: #f3f2f2;}
+
+@import "../container/Home/home";
+@import "../components/Header/header";
+@import "../components/Footer/footer";
+@import "../components/Sidebar/sidebar"; 
+@import "../components/Logo/logo";
+@import "../components/Contact/contact"; 
+@import "../container/Auth/auth"; 
+@import "../components/base/colors"

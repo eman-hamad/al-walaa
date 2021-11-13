@@ -1,0 +1,57 @@
+@import '../base/colors';
+.contact{
+    padding: 2rem 25rem;
+    background-color: #007bff;
+    // background-image: $background-gradient;
+    display: grid;
+    grid-template-rows: minmax(min-content, 1fr) minmax(min-content, 5fr) minmax(min-content, 1fr);
+    grid-template-columns:  minmax(min-content, 1fr) minmax(min-content, 5fr) minmax(min-content, 1fr);
+
+    &__header{
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        color: #fff;
+    }
+    &__input{
+        grid-row: 2 / 3;
+        grid-column: 1 / 4;
+        width: 100%;
+        position: relative;
+        border: none;
+        border-radius: 1rem;
+        text-align: right; 
+        padding: 2rem;
+        font-size: 2rem;
+        
+        &:focus{
+            outline: none;
+        }
+        
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            font-size: 2rem;
+            text-align: right;
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+        } 
+    }
+    
+    &__button{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+
+        margin: .5rem 0rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 2rem;
+        background-color: rgb(90, 90, 90);
+        color: #ffff;
+        cursor: pointer;
+
+        &:hover{
+            background: rgb(133, 132, 132);
+        }
+    }
+
+}

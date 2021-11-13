@@ -1,0 +1,32 @@
+.footer{
+    padding: .5rem 25rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    &__icon{
+        margin: 0rem 1rem;
+        font-size: 3rem;
+        text-decoration: none;
+        
+        &--facebook{
+            fill: #3b5998;
+        }
+        &--youtube{
+            fill: #FF0000;
+        }
+        &--instagram{
+            fill: #C13584;
+        }
+        &--twitter{
+            fill:  #1DA1F2;
+        }
+        &--whats{
+            fill: #075e54;
+        }
+        &--call{
+            fill: #075e54;
+        }
+    }
+}
